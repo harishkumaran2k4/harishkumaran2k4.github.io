@@ -3,26 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Harish | VLSI & Chip Design</title>
+    <title>Harish | VLSI Enthusiast</title>
     <style>
         body {
             margin: 0;
             font-family: Arial, sans-serif;
             background-color: #0a0a0a;
             color: #ffffff;
-            text-align: center;
         }
         header {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding: 20px 40px;
+            padding: 15px 40px;
             background: #121212;
             position: fixed;
             width: 100%;
             top: 0;
             left: 0;
             box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+            z-index: 1000;
         }
         .logo {
             font-size: 24px;
@@ -35,27 +35,13 @@
             font-size: 18px;
         }
         .container {
-            padding: 100px 20px;
+            padding: 120px 20px 40px;
             max-width: 900px;
             margin: auto;
+            text-align: center;
         }
         h1 {
             font-size: 48px;
-        }
-        .btn {
-            display: inline-block;
-            padding: 12px 24px;
-            margin-top: 20px;
-            border: none;
-            background: #0080ff;
-            color: #ffffff;
-            font-size: 18px;
-            cursor: pointer;
-            border-radius: 5px;
-            transition: 0.3s;
-        }
-        .btn:hover {
-            background: #005fcc;
         }
         .grid {
             display: grid;
@@ -73,40 +59,71 @@
             background: #121212;
             padding: 20px;
             font-size: 14px;
-            margin-top: 50px;
+            text-align: center;
+        }
+        .social-icons a {
+            margin: 0 10px;
+            color: #ffffff;
+            font-size: 20px;
         }
     </style>
 </head>
 <body>
     <header>
-        <div class="logo">Harish | VLSI Enthusiast</div>
+        <div class="logo">Home</div>
         <nav>
-            <a href="#about">About</a>
-            <a href="#projects">Projects</a>
+            <a href="#about">About Me</a>
+            <a href="#skills">Skills</a>
+            <a href="#experience">Experience</a>
+            <a href="#awards">Awards</a>
+            <a href="#certifications">Certifications</a>
+            <a href="#events">Events</a>
+            <a href="#articles">Articles</a>
             <a href="#contact">Contact</a>
+            <a href="#blog">Blog</a>
         </nav>
     </header>
-    <div class="container">
-        <h1>Exploring VLSI & Chip Design</h1>
-        <p>Focused on RISC-V, HDL, and secure hardware design.</p>
-        <button class="btn">Learn More</button>
+    <div class="container" id="about">
+        <h1>About Me</h1>
+        <p>Passionate about VLSI, RISC-V, and secure hardware design.</p>
     </div>
     <div class="grid">
-        <div class="card">
-            <h2>VLSI Design</h2>
-            <p>ASIC & FPGA development with Verilog.</p>
+        <div class="card" id="skills">
+            <h2>Skills</h2>
+            <p>Verilog, SystemVerilog, RISC-V, VLSI Design Flow</p>
         </div>
-        <div class="card">
-            <h2>RISC-V Architecture</h2>
-            <p>Understanding and designing processors.</p>
+        <div class="card" id="experience">
+            <h2>Experience</h2>
+            <p>Projects and internships in Chip Design</p>
         </div>
-        <div class="card">
-            <h2>Post-Quantum Security</h2>
-            <p>Implementing secure cryptographic techniques.</p>
+        <div class="card" id="awards">
+            <h2>Awards</h2>
+            <p>Recognition in VLSI competitions</p>
+        </div>
+        <div class="card" id="certifications">
+            <h2>Certifications</h2>
+            <p>Certified in VLSI and UVM</p>
+        </div>
+        <div class="card" id="events">
+            <h2>Events</h2>
+            <p>Workshops and conferences attended</p>
+        </div>
+        <div class="card" id="articles">
+            <h2>Articles</h2>
+            <p>Publications and blogs</p>
+        </div>
+        <div class="card" id="contact">
+            <h2>Contact</h2>
+            <p>Email: harish@example.com</p>
         </div>
     </div>
     <footer>
-        &copy; 2025 Harish | All Rights Reserved
+        <div class="social-icons">
+            <a href="#">LinkedIn</a>
+            <a href="#">GitHub</a>
+            <a href="#">Twitter</a>
+        </div>
+        <p>&copy; 2025 Harish | All Rights Reserved</p>
     </footer>
 </body>
 </html>
