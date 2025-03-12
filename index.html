@@ -3,74 +3,110 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Harish | VLSI Enthusiast</title>
+    <title>Harish | VLSI & Chip Design</title>
     <style>
         body {
             margin: 0;
             font-family: Arial, sans-serif;
-            background-color: #0a192f;
-            color: #ccd6f6;
+            background-color: #0a0a0a;
+            color: #ffffff;
             text-align: center;
         }
         header {
-            background: linear-gradient(90deg, #020c1b, #112240);
-            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 40px;
+            background: #121212;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+        }
+        .logo {
             font-size: 24px;
             font-weight: bold;
-            letter-spacing: 2px;
+        }
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
         }
         .container {
-            padding: 50px;
+            padding: 100px 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+        h1 {
+            font-size: 48px;
         }
         .btn {
             display: inline-block;
-            padding: 10px 20px;
-            margin: 20px;
+            padding: 12px 24px;
+            margin-top: 20px;
             border: none;
-            background: #64ffda;
-            color: #020c1b;
+            background: #0080ff;
+            color: #ffffff;
             font-size: 18px;
             cursor: pointer;
             border-radius: 5px;
             transition: 0.3s;
         }
         .btn:hover {
-            background: #52e0c4;
+            background: #005fcc;
         }
         .grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
             gap: 20px;
-            padding: 20px;
+            padding: 40px 20px;
         }
         .card {
-            background: #112240;
+            background: #1e1e1e;
             padding: 20px;
             border-radius: 10px;
-            box-shadow: 0 4px 10px rgba(0, 255, 200, 0.2);
+            box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+        }
+        footer {
+            background: #121212;
+            padding: 20px;
+            font-size: 14px;
+            margin-top: 50px;
         }
     </style>
 </head>
 <body>
-    <header>Harish | VLSI Enthusiast</header>
+    <header>
+        <div class="logo">Harish | VLSI Enthusiast</div>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
     <div class="container">
-        <h1>Welcome to My Portfolio</h1>
-        <p>Exploring the world of VLSI, RISC-V, and Chip Design</p>
-        <button class="btn">Explore More</button>
+        <h1>Exploring VLSI & Chip Design</h1>
+        <p>Focused on RISC-V, HDL, and secure hardware design.</p>
+        <button class="btn">Learn More</button>
     </div>
     <div class="grid">
         <div class="card">
             <h2>VLSI Design</h2>
-            <p>Working on ASIC & FPGA implementations with Verilog.</p>
+            <p>ASIC & FPGA development with Verilog.</p>
         </div>
         <div class="card">
             <h2>RISC-V Architecture</h2>
-            <p>Understanding and building processors using RISC-V ISA.</p>
+            <p>Understanding and designing processors.</p>
         </div>
         <div class="card">
-            <h2>Secure Hardware</h2>
-            <p>Exploring post-quantum cryptographic techniques.</p>
+            <h2>Post-Quantum Security</h2>
+            <p>Implementing secure cryptographic techniques.</p>
         </div>
     </div>
+    <footer>
+        &copy; 2025 Harish | All Rights Reserved
+    </footer>
 </body>
 </html>
