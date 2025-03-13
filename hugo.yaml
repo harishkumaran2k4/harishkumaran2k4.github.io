@@ -1,5 +1,5 @@
 baseURL: "https://harishkumaran2k4.github.io/"
-title: Harish's Blog
+title: Harish Kumaran
 pagination:
   pagerSize: 5
 
@@ -16,9 +16,9 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: Harish's Blog
-  description: "Daily blog of my thoughts, ideas, findings, learnings, advice"
-  keywords: [Blog, Portfolio, PaperMod]
+  title: Harish Kumaran
+  description: "My own public space"
+  keywords: [Personal, Website, Blog, Harish Kumaran]
   author: Me
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
@@ -45,46 +45,43 @@ params:
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    favicon: "pc.png"
+    favicon: "prfl.png"
     favicon16x16: "<link / abs url>"
     favicon32x32: "<link / abs url>"
     apple_touch_icon: "<link / abs url>"
     safari_pinned_tab: "<link / abs url>"
 
   label:
-    text: "Blog"
-    icon: /apple-touch-icon.png
+    text: " "
+    icon: prfl.png
     iconHeight: 35
 
   # profile-mode
   profileMode:
-    enabled: false # needs to be explicitly set
-    title: Harish's Blog
-    subtitle: "This is subtitle"
-    imageUrl: "<img location>"
-    imageWidth: 120
-    imageHeight: 120
+    enabled: true # needs to be explicitly set
+    title: Harish Kumaran
+    subtitle: "Hi👋 Welcome to my World"
+    imageUrl: "prfl.png"
+    imageWidth: 200
+    imageHeight: 200
     imageTitle: my image
     buttons:
-      - name: Posts
-        url: posts
-      - name: Tags
-        url: tags
+
 
   # home-info mode
-  homeInfoParams:
-    Title: "Posts"
-    Content: Arranged alphabetically
+  #homeInfoParams:
+  #  Title: "Posts"
+  #  Content: Arranged alphabetically
 
-  #socialIcons:
-   # - name: reddit
-    #  url: "https://www.reddit.com/user/harish-kumaran/"
-   # - name: x
-   #   url: "https://x.com/"
-   # - name: stackoverflow
-    #  url: "https://stackoverflow.com"
-   # - name: github
-   #   url: "https://github.com/harishkumaran2k4"
+  socialIcons:
+   - name: reddit
+     url: "https://www.reddit.com/user/harish-kumaran/"
+   - name: x
+     url: "https://x.com/_HarishKumaran_"
+   - name: stackoverflow
+     url: "https://stackoverflow.com"
+   - name: github
+     url: "https://github.com/harishkumaran2k4"
 
   analytics:
     google:
@@ -117,22 +114,40 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
+    - identifier: About
+      name: About
+      url: /-/about.md
+      weight: 10
+    - identifier: Awards
+      name: Awards
+      url: /awards.html
+      weight: 20
+    - identifier: Experience
+      name: History
+      url: /history.html
+      weight: 30
+    - identifier: Skills
+      name: Skills
+      url: /skills.html
+      weight: 40
     - identifier: Search
       name: Search
       url: /search
-      weight: 10
-    - identifier: Categories
-      name: Categories
-      url: /categories/
-      weight: 20
-    - identifier: Tags
-      name: Tags
-      url: /tags/
-      weight: 30
-    - identifier: harishkumaran.in
-      name: harishkumaran.in
-      url: https://harishkumaran2k4.github.io
-      weight: 40
+      weight: 50
+    - identifier: Blogs
+      name: Blogs
+      url: /blogs/
+      weight: 60
+    - identifier: Projects
+      name: Projects
+      url: /projects
+      weight: 70
+    - identifier: Contact
+      name: Contact
+      url: /contact.html
+      weight: 80 
+
+
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:

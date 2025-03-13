@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Sample Tag on Harish&#39;s Blog</title>
+    <title>Sample Tag on Harish Kumaran</title>
     <link>http://localhost:1313/tags/sample-tag/</link>
-    <description>Recent content in Sample Tag on Harish&#39;s Blog</description>
+    <description>Recent content in Sample Tag on Harish Kumaran</description>
     <image>
-      <title>Harish&#39;s Blog</title>
+      <title>Harish Kumaran</title>
       <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
@@ -14,10 +14,31 @@
     <lastBuildDate>Tue, 15 Sep 2020 11:30:03 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/sample-tag/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Sample Title</title>
-      <link>http://localhost:1313/posts/sample-post/</link>
+      <title>Programming Languages</title>
+      <link>http://localhost:1313/about/about/</link>
       <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
-      <guid>http://localhost:1313/posts/sample-post/</guid>
+      <guid>http://localhost:1313/about/about/</guid>
+      <description>The programming languages I am comfortabe in</description>
+    </item>
+    <item>
+      <title>Programming Languages</title>
+      <link>http://localhost:1313/skills/languages/</link>
+      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
+      <guid>http://localhost:1313/skills/languages/</guid>
+      <description>The programming languages I am comfortabe in</description>
+    </item>
+    <item>
+      <title>Sample Title</title>
+      <link>http://localhost:1313/-/about/</link>
+      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
+      <guid>http://localhost:1313/-/about/</guid>
+      <description>Sample Description</description>
+    </item>
+    <item>
+      <title>Sample Title</title>
+      <link>http://localhost:1313/blogs/my-first-post/</link>
+      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
+      <guid>http://localhost:1313/blogs/my-first-post/</guid>
       <description>Sample Description</description>
     </item>
   </channel>

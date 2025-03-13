@@ -48,7 +48,7 @@ window.onload = function () {
             }
         }
     };
-    xhr.open('GET', "../index.json");
+    xhr.open('GET', "harishkumaran2k4.github.io/blogs/index.json");
     xhr.send();
 }
 
