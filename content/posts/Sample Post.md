@@ -1,9 +1,9 @@
 ---
-title: "Rise of RISC-V in Chip Design"
+title: "Sample Title"
 date: 2020-09-15T11:30:03+00:00
 # weight: 1
 # aliases: ["/first"]
-tags: ["SystemVerilog"]
+tags: ["Sample Tag"]
 author: "Harish Kumaran"
 # author: ["Me", "You"] # multiple authors
 showToc: true
@@ -11,7 +11,7 @@ TocOpen: false
 draft: false
 hidemeta: false
 comments: false
-description: "Desc Text."
+description: "Sample Description"
 canonicalURL: "https://canonical.url/to/page"
 disableHLJS: false # to disable highlightjs
 disableShare: false
@@ -36,30 +36,6 @@ editPost:
     appendFilePath: true # to append file path to Edit link
 ---
 
-## Introduction  
-  
-RISC-V is rapidly transforming the semiconductor industry. Unlike traditional proprietary ISAs like ARM and x86, RISC-V is open-source and royalty-free.
+### Sample Heading
 
-## Key Advantages
-
-- **Open-Source**: Anyone can contribute and modify.
-    
-- **Scalability**: Can be used in embedded devices, servers, and even AI chips.
-    
-- **Growing Ecosystem**: Companies like SiFive, Western Digital, and Google are adopting it.
-    
-
-### Code Example (Hello World in RISC-V Assembly)
-
-```
-li a0, 1
-la a1, message
-li a2, 13
-li a7, 64
-ecall
-message: .asciz "Hello RISC-V"
-```
-
-## Conclusion
-
-The future of chip design is moving toward open standards, and RISC-V is leading the way.
+Sample Content 

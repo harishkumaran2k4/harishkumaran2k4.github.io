@@ -14,25 +14,11 @@
     <lastBuildDate>Tue, 15 Sep 2020 11:30:03 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Beginner&#39;s Guide to SystemVerilog &amp; UVM</title>
-      <link>http://localhost:1313/posts/beginners-guide-to-systemverilog--uvm/</link>
+      <title>Sample Title</title>
+      <link>http://localhost:1313/posts/sample-post/</link>
       <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
-      <guid>http://localhost:1313/posts/beginners-guide-to-systemverilog--uvm/</guid>
-      <description>Desc Text.</description>
-    </item>
-    <item>
-      <title>Rise of RISC-V in Chip Design</title>
-      <link>http://localhost:1313/posts/rise-of-risc-v-in-chip-design/</link>
-      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
-      <guid>http://localhost:1313/posts/rise-of-risc-v-in-chip-design/</guid>
-      <description>Desc Text.</description>
-    </item>
-    <item>
-      <title>Why Coffee is an Engineer&#39;s Best Friend</title>
-      <link>http://localhost:1313/posts/why-coffee-is-an-engineers-best-friend/</link>
-      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
-      <guid>http://localhost:1313/posts/why-coffee-is-an-engineers-best-friend/</guid>
-      <description>Desc Text.</description>
+      <guid>http://localhost:1313/posts/sample-post/</guid>
+      <description>Sample Description</description>
     </item>
   </channel>
 </rss>
