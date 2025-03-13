@@ -74,7 +74,7 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Posts"
-    Content: Arranged alphabetically starting with a & ending with a z
+    Content: Arranged alphabetically
 
   #socialIcons:
    # - name: reddit
