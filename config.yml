@@ -1,0 +1,7 @@
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # necessary for search
+
+
