@@ -73,8 +73,8 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Posts:"
-    #Content: Welcome to my website!
+    Title: "Posts"
+    Content: Arranged alphabetically starting with a & ending with a z
 
   #socialIcons:
    # - name: reddit
