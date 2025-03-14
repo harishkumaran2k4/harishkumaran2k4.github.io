@@ -116,7 +116,7 @@ menu:
   main:
     - identifier: About
       name: About
-      url: /-/about.md
+      url: /about.md
       weight: 10
     - identifier: Awards
       name: Awards
