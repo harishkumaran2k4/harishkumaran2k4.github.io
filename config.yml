@@ -4,4 +4,28 @@ outputs:
     - RSS
     - JSON # necessary for search
 
+markup:
+    highlight:
+        style: dracula
+        lineNos: false
+        noClasses: false
+        guessSyntax: true
 
+menu:
+  main:
+    - identifier: tags
+      name: tags
+      url: /tags/
+      weight: 10
+    - identifier: about
+      name: about
+      url: /about/
+      weight: 20
+    - identifier: Search
+      name: search
+      url: /search/
+      weight: 30
+    - identifier: french
+      name: french
+      url: https://wonderfall.space
+      weight: 99
