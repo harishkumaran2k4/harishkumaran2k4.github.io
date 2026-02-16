@@ -1,3 +1,0 @@
-User-agent: *
-Disallow:
-Sitemap: https://harishkumaran2k4.github.io/sitemap.xml
